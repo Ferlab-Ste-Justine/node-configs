@@ -1,0 +1,33 @@
+{
+    "name": "@cr-ste-justine/configs",
+    "version": "0.1.0",
+    "description": "Utilities to process configurations for the Sainte-Justine Research Center node projects",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cr-ste-justine/node-configs.git"
+    },
+    "bugs": {
+      "url": "https://github.com/cr-ste-justine/node-configs.git/issues",
+      "email": "eric_vallee@webificservices.com"
+    },
+    "license": "GPLv3",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha \"tests/*.js\""
+    },
+    "dependencies": {
+      "ramda": "^0.26.1",
+      "data.either": "^1.5.2",
+      "@cr-ste-justine/functional-utils": "^0.1.0"
+    },
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "mocha": "^7.0.0"
+    },
+    "files": [
+      "index.js",
+      "License.txt",
+      "README.md"
+    ]
+  }
